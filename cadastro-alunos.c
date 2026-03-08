@@ -1,8 +1,10 @@
+
 #include <stdio.h>
 
 int main() {
     char nome[50];
-    int idade;
+    int idade, matricula;
+        float altura;
 
     printf("Digite o nome do aluno: ");
     fgets(nome, sizeof(nome), stdin);
